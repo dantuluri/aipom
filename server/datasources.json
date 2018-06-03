@@ -5,8 +5,16 @@
     "url": "",
     "database": "api",
     "password": "",
-    "name": "mongoDS",
+    "name": "db",
     "user": "",
     "connector": "mongodb"
+  },
+  "gridfs": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "files",
+    "name": "gridfs",
+    "connector": "loopback-component-storage-mongo",
+    "provider": "gridfs"
   }
 }
